@@ -17,5 +17,63 @@
 		display: inline-block;
 		margin-right : 1em;
 	}
+	.headline{
+		padding: .75em 0;
+	}
 
+	.projects h2{
+		font-size: 2.8em;
+	}
+
+
+	/* Passage en colonnes des projets
+
+	.projects figure{
+		float: left;
+		width: 32%;
+		margin-right : 2%
+	}
+	.projects figure:last-child{
+		margin-right : 0;
+	}
+	*/
+	/* Colonnes en float, largeurs en calc()
+	.projects figure{
+		float: left;
+		width: calc(96%/3);
+		margin-right :2%;
+	}
+	.projects figure:last-child{
+		margin-right : 0;
+	}
+	*/
+
+	/* colonnes en flexbox */
+	.projects .contener{
+		display : ms-flex;
+		display : webkit-flex;
+		display : flex;
+		/* I'm sexy 'n I know it */
+	}
+	.projects figure{
+		margin-right: 2%;
+	}
+	.projects figure:last-child{
+		margin-right : 0;
+	}
+
+	main{
+		display : ms-flex;
+		display : webkit-flex;
+		display : flex;
+		/* I'm sexy 'n I know it */
+		border-top: 2px solid #eee;
+		margin-top: 2em;
+		padding : 2em 0;
+	}
+	.services{
+		border-right: 2px solid #eee;
+		margin-right: 3%;
+		padding-right: 3%;
+	}
 }
