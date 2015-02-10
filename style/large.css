@@ -1,0 +1,37 @@
+@media screen and (min-width : 1300px){
+
+	.top_wrapper{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+	}
+
+	nav{
+		align-self: flex-end;
+		margin-bottom: 3em;
+		margin-left: 1em
+	}
+
+	.projects .contener{
+		max-width: 1000px ;
+		margin: 0 auto;
+	}
+
+	.blog article,
+	.services article{
+		float: left;
+		width: 49%;
+		margin-right: 2%;
+	}
+
+	.blog article:first-of-type,
+	.services article:first-of-type{
+		width: 100%;
+	}
+	.blog article:last-of-type,
+	.services article:last-of-type{
+		margin-right: 0;
+	}
+}
