@@ -1,4 +1,4 @@
-@media screen and (min-width : 450px){
+@media screen and (min-width : 550px){
 
 	/*	body{ background: red;}*/
 
@@ -13,10 +13,7 @@
 	header .slogan{
 		font-size: 3.75em;
 	}
-	nav li{
-		display: inline-block;
-		margin-right : 1em;
-	}
+
 	.headline{
 		padding: .75em 0;
 	}
@@ -77,3 +74,12 @@
 		padding-right: 3%;
 	}
 }
+
+@media screen and (min-width : 670px){
+	nav li{
+		display: inline-block;
+		margin-right : 1em;
+	}
+
+}
+
