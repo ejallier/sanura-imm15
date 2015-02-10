@@ -1,6 +1,21 @@
 @media screen and (min-width : 450px){
 
-/*	body{ background: red;}*/
+	/*	body{ background: red;}*/
 
+	header{
+		text-align: left;
+		margin-bottom: 3em;
+	}
+	header h1{
+		font-size: 6em;
+		margin-top: .3em;
+	}
+	header .slogan{
+		font-size: 3.75em;
+	}
+	nav li{
+		display: inline-block;
+		margin-right : 1em;
+	}
 
 }
