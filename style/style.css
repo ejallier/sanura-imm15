@@ -94,6 +94,7 @@ figure{
 figure a{
 	text-decoration: none;
 }
+figure img{display : block}
 img {
 	max-width: 100%; 
 	height: auto;
