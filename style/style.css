@@ -141,3 +141,13 @@ footer{
 	color: #888;
 	font-size: .8em;
 }
+
+
+/* h-button */
+
+.zone-h{
+	text-align: center;
+}
+.hamburger{
+	cursor:pointer;
+}
