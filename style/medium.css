@@ -81,5 +81,9 @@
 		margin-right : 1em;
 	}
 
+	.zone-h{
+		display: none;
+	}
+
 }
 
