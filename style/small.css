@@ -3,4 +3,54 @@
 		max-width: 390px;
 		margin: .5em auto;
 	}
+
+}
+
+@media screen and (max-width:670px){
+
+	/* Apparition - disparition simple */
+	/*
+	.menu-principal{
+		display: none;
+	}
+
+	.menu-principal.open{
+		display: block;
+	}
+	*/
+
+	/* Escamotage haut-bas
+
+	.menu-principal{
+		overflow: hidden;
+	}
+
+	.menu-principal.open{
+
+
+	}
+	.menu-principal li{
+		margin-top : -5em;
+		transition: all 1200ms ease-out;
+	}
+	.menu-principal.open li{
+		margin-top : .5em;
+	}
+	 */
+
+	/* Escamotage g-d */
+	.menu-principal{
+		position: absolute;
+		left:-100%;
+		transition: all 600ms ease-out;
+		background: rgba(255,255,255,.9);
+		width: 50%;
+		box-shadow: 2px 2px 2px black
+	}
+
+	.menu-principal.open{
+		left:0
+	}
+
+
 }
